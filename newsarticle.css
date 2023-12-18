@@ -126,10 +126,10 @@ body{
     font-family: Inter;
 }
 .grid-container #arrow{
-    color: rgb(34, 33, 33);
+    color: rgb(56, 54, 54);
 }
 .grid-container .read-article{
-    color: red;
+    color: rgb(209, 22, 22);
 }
 
 @media screen and (min-width: 414px) and (min-height: 4344px){
