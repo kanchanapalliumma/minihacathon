@@ -125,6 +125,12 @@ body{
     margin-top:-20px;
     font-family: Inter;
 }
+.grid-container #arrow{
+    color: rgb(34, 33, 33);
+}
+.grid-container .read-article{
+    color: red;
+}
 
 @media screen and (min-width: 414px) and (min-height: 4344px){
     .container-one{
@@ -184,3 +190,4 @@ body{
         margin-left: 0;
     }
 }
+
