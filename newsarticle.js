@@ -15,7 +15,7 @@ function showdata(attaching){
            if (image){
            const title=item.title
            const description=item.description
-           const newdescription=description.slice(0,100)+"......."
+           const newdescription=description.slice(0,120)+"......."
            newshtml+=`<li><img src="${image}">  <h3>${title}</h3>  <p>${newdescription}</p> <p id="arrow">Read full article  <a href="${item.url}" target="_blank" class="read-article"><span>&#8594;</span></a></p></li>`
            count=count+1
            }
